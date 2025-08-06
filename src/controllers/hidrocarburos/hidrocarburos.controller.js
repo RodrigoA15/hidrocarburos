@@ -13,7 +13,6 @@ export const getHidrocarburos = (req, res) => {
     }
 
     res.status(200).json({
-      status: "success",
       data: response,
     });
   } catch (error) {
