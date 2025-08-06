@@ -4,6 +4,6 @@ import hidrucarburosRoutes from "./hidrucarburos.routes.js";
 const router = Router();
 const pathRoutes = "/api/v1";
 
-router.use(`${pathRoutes}/hidrucarburos`, hidrucarburosRoutes);
+router.use(`${pathRoutes}/hidrocarburos`, hidrucarburosRoutes);
 
 export default router;
